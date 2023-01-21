@@ -1,0 +1,19 @@
+.main-nav {
+    background-color: salmon;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    padding: 2rem;
+    .nav-item {
+        text-decoration: none;
+        color: white;
+        &.active {
+            font-weight: bold;
+            color: black;
+        }
+    }
+}
