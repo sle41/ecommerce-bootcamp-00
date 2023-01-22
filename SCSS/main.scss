@@ -1,19 +1,10 @@
-.main-nav {
-    background-color: salmon;
-    color: white;
-    height: 60px;
-    display: flex;
-    align-items: center;
-}
+@import "abstracts/variables";
 
-.nav-links {
-    padding: 2rem;
-    .nav-item {
-        text-decoration: none;
-        color: white;
-        &.active {
-            font-weight: bold;
-            color: black;
-        }
-    }
-}
+@import "components/card";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "layout/header";
+
+@import "pages/home"

@@ -1,5 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,900&display=swap");
+.card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Sofia Sans", sans-serif;
+}
+
 .main-nav {
-  background-color: salmon;
+  background-color: rgb(92, 32, 25);
   color: white;
   height: 60px;
   display: flex;
